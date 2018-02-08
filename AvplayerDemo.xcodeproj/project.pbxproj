@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		708D9A0A201B01DC0080F673 /* player_window_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 708D9A07201B01DB0080F673 /* player_window_iphone.png */; };
+		708D9A0B201B01DC0080F673 /* player_window_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 708D9A08201B01DC0080F673 /* player_window_iphone@2x.png */; };
+		708D9A0C201B01DC0080F673 /* player_window_iphone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 708D9A09201B01DC0080F673 /* player_window_iphone@3x.png */; };
+		708D9A10201B020F0080F673 /* player_fullScreen_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 708D9A0D201B020E0080F673 /* player_fullScreen_iphone@2x.png */; };
+		708D9A11201B020F0080F673 /* player_fullScreen_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 708D9A0E201B020E0080F673 /* player_fullScreen_iphone.png */; };
+		708D9A12201B020F0080F673 /* player_fullScreen_iphone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 708D9A0F201B020F0080F673 /* player_fullScreen_iphone@3x.png */; };
+		70A4CF1620200FAD0012926C /* Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70A4CF1520200FAD0012926C /* Play@2x.png */; };
+		70A4CF1820200FB30012926C /* Stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70A4CF1720200FB20012926C /* Stop@2x.png */; };
+		70A4CF1B20201F750012926C /* NSString+time.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A4CF1A20201F750012926C /* NSString+time.m */; };
+		70A4CF1E20205A040012926C /* ProgressSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A4CF1D20205A040012926C /* ProgressSlider.m */; };
+		70B869A82019B61F00B972DE /* AVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B869A72019B61F00B972DE /* AVPlayerView.m */; };
+		70B869AB2019CD6D00B972DE /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B869A92019CD6C00B972DE /* UIViewExt.m */; };
+		70CBBE3D2018646900161D03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CBBE3C2018646900161D03 /* AppDelegate.m */; };
+		70CBBE402018646900161D03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CBBE3F2018646900161D03 /* ViewController.m */; };
+		70CBBE432018646900161D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CBBE412018646900161D03 /* Main.storyboard */; };
+		70CBBE452018646A00161D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CBBE442018646A00161D03 /* Assets.xcassets */; };
+		70CBBE482018646A00161D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CBBE462018646A00161D03 /* LaunchScreen.storyboard */; };
+		70CBBE4B2018646A00161D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CBBE4A2018646A00161D03 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		708D9A07201B01DB0080F673 /* player_window_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player_window_iphone.png; path = "AvplayerDemo/New Group/player_window_iphone.png"; sourceTree = SOURCE_ROOT; };
+		708D9A08201B01DC0080F673 /* player_window_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_window_iphone@2x.png"; sourceTree = "<group>"; };
+		708D9A09201B01DC0080F673 /* player_window_iphone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_window_iphone@3x.png"; sourceTree = "<group>"; };
+		708D9A0D201B020E0080F673 /* player_fullScreen_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_fullScreen_iphone@2x.png"; sourceTree = "<group>"; };
+		708D9A0E201B020E0080F673 /* player_fullScreen_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player_fullScreen_iphone.png; sourceTree = "<group>"; };
+		708D9A0F201B020F0080F673 /* player_fullScreen_iphone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_fullScreen_iphone@3x.png"; sourceTree = "<group>"; };
+		70A4CF1520200FAD0012926C /* Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play@2x.png"; sourceTree = "<group>"; };
+		70A4CF1720200FB20012926C /* Stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stop@2x.png"; sourceTree = "<group>"; };
+		70A4CF1920201F750012926C /* NSString+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+time.h"; sourceTree = "<group>"; };
+		70A4CF1A20201F750012926C /* NSString+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+time.m"; sourceTree = "<group>"; };
+		70A4CF1C20205A040012926C /* ProgressSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressSlider.h; sourceTree = "<group>"; };
+		70A4CF1D20205A040012926C /* ProgressSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressSlider.m; sourceTree = "<group>"; };
+		70B869A62019B61F00B972DE /* AVPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerView.h; sourceTree = "<group>"; };
+		70B869A72019B61F00B972DE /* AVPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerView.m; sourceTree = "<group>"; };
+		70B869A92019CD6C00B972DE /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		70B869AA2019CD6D00B972DE /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		70CBBE382018646900161D03 /* AvplayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvplayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CBBE3B2018646900161D03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70CBBE3C2018646900161D03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70CBBE3E2018646900161D03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70CBBE3F2018646900161D03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70CBBE422018646900161D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70CBBE442018646A00161D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70CBBE472018646A00161D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70CBBE492018646A00161D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CBBE4A2018646A00161D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70CBBE352018646900161D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		708D9A06201B01CA0080F673 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				70A4CF1520200FAD0012926C /* Play@2x.png */,
+				70A4CF1720200FB20012926C /* Stop@2x.png */,
+				708D9A07201B01DB0080F673 /* player_window_iphone.png */,
+				708D9A08201B01DC0080F673 /* player_window_iphone@2x.png */,
+				708D9A09201B01DC0080F673 /* player_window_iphone@3x.png */,
+				708D9A0E201B020E0080F673 /* player_fullScreen_iphone.png */,
+				708D9A0D201B020E0080F673 /* player_fullScreen_iphone@2x.png */,
+				708D9A0F201B020F0080F673 /* player_fullScreen_iphone@3x.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		70CBBE2F2018646800161D03 = {
+			isa = PBXGroup;
+			children = (
+				70CBBE3A2018646900161D03 /* AvplayerDemo */,
+				70CBBE392018646900161D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70CBBE392018646900161D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70CBBE382018646900161D03 /* AvplayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70CBBE3A2018646900161D03 /* AvplayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				708D9A06201B01CA0080F673 /* icon */,
+				70B869AA2019CD6D00B972DE /* UIViewExt.h */,
+				70B869A92019CD6C00B972DE /* UIViewExt.m */,
+				70A4CF1920201F750012926C /* NSString+time.h */,
+				70A4CF1A20201F750012926C /* NSString+time.m */,
+				70CBBE3B2018646900161D03 /* AppDelegate.h */,
+				70CBBE3C2018646900161D03 /* AppDelegate.m */,
+				70CBBE3E2018646900161D03 /* ViewController.h */,
+				70CBBE3F2018646900161D03 /* ViewController.m */,
+				70B869A62019B61F00B972DE /* AVPlayerView.h */,
+				70B869A72019B61F00B972DE /* AVPlayerView.m */,
+				70A4CF1C20205A040012926C /* ProgressSlider.h */,
+				70A4CF1D20205A040012926C /* ProgressSlider.m */,
+				70CBBE412018646900161D03 /* Main.storyboard */,
+				70CBBE442018646A00161D03 /* Assets.xcassets */,
+				70CBBE462018646A00161D03 /* LaunchScreen.storyboard */,
+				70CBBE492018646A00161D03 /* Info.plist */,
+				70CBBE4A2018646A00161D03 /* main.m */,
+			);
+			path = AvplayerDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70CBBE372018646900161D03 /* AvplayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CBBE4E2018646A00161D03 /* Build configuration list for PBXNativeTarget "AvplayerDemo" */;
+			buildPhases = (
+				70CBBE342018646900161D03 /* Sources */,
+				70CBBE352018646900161D03 /* Frameworks */,
+				70CBBE362018646900161D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvplayerDemo;
+			productName = AvplayerDemo;
+			productReference = 70CBBE382018646900161D03 /* AvplayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70CBBE302018646800161D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = tianyaxu;
+				TargetAttributes = {
+					70CBBE372018646900161D03 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 70CBBE332018646800161D03 /* Build configuration list for PBXProject "AvplayerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70CBBE2F2018646800161D03;
+			productRefGroup = 70CBBE392018646900161D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70CBBE372018646900161D03 /* AvplayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70CBBE362018646900161D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A4CF1620200FAD0012926C /* Play@2x.png in Resources */,
+				708D9A11201B020F0080F673 /* player_fullScreen_iphone.png in Resources */,
+				70CBBE482018646A00161D03 /* LaunchScreen.storyboard in Resources */,
+				70A4CF1820200FB30012926C /* Stop@2x.png in Resources */,
+				708D9A0C201B01DC0080F673 /* player_window_iphone@3x.png in Resources */,
+				708D9A12201B020F0080F673 /* player_fullScreen_iphone@3x.png in Resources */,
+				708D9A0A201B01DC0080F673 /* player_window_iphone.png in Resources */,
+				708D9A0B201B01DC0080F673 /* player_window_iphone@2x.png in Resources */,
+				70CBBE452018646A00161D03 /* Assets.xcassets in Resources */,
+				708D9A10201B020F0080F673 /* player_fullScreen_iphone@2x.png in Resources */,
+				70CBBE432018646900161D03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70CBBE342018646900161D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B869A82019B61F00B972DE /* AVPlayerView.m in Sources */,
+				70A4CF1E20205A040012926C /* ProgressSlider.m in Sources */,
+				70CBBE402018646900161D03 /* ViewController.m in Sources */,
+				70B869AB2019CD6D00B972DE /* UIViewExt.m in Sources */,
+				70CBBE4B2018646A00161D03 /* main.m in Sources */,
+				70A4CF1B20201F750012926C /* NSString+time.m in Sources */,
+				70CBBE3D2018646900161D03 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70CBBE412018646900161D03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CBBE422018646900161D03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70CBBE462018646A00161D03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CBBE472018646A00161D03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70CBBE4C2018646A00161D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70CBBE4D2018646A00161D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70CBBE4F2018646A00161D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvplayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzjp.AvplayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70CBBE502018646A00161D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvplayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzjp.AvplayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70CBBE332018646800161D03 /* Build configuration list for PBXProject "AvplayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CBBE4C2018646A00161D03 /* Debug */,
+				70CBBE4D2018646A00161D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70CBBE4E2018646A00161D03 /* Build configuration list for PBXNativeTarget "AvplayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CBBE4F2018646A00161D03 /* Debug */,
+				70CBBE502018646A00161D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70CBBE302018646800161D03 /* Project object */;
+}
